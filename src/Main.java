@@ -57,13 +57,14 @@ public class Main {
     // else it tries to create it, if done successfully it returns true else false
 
     boolean make_folder(String name){
+        name = "data/"+name;
         File dir = new File(name);
         if(dir.exists()){
             return true;
         }
 
         try{
-            dir.mkdir();
+            dir.mkdirs();
         }
         catch(SecurityException se){
             logger.severe("could not make directory : "+name);
@@ -115,12 +116,12 @@ public class Main {
                 String month_name = helper.month_mapping(month_index);
                 boolean subfolder_made = make_folder(year_name+"/"+month_name);
                 if(subfolder_made){
-                    File temp = new File(year_name+"/"+month_name+"/"+file_name);
+                    File temp = new File("data/"+year_name+"/"+month_name+"/"+file_name);
                     if(temp.exists() && !helper.is_current_month(month_name,year_name)){
                         logger.info(temp.getName()+" already exists");
                         return;
                     }
-                    fos = new FileOutputStream(year_name+"/"+month_name+"/"+file_name);
+                    fos = new FileOutputStream("data/"+year_name+"/"+month_name+"/"+file_name);
                 }
             }
         } catch (FileNotFoundException e) {
