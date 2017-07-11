@@ -1,4 +1,4 @@
-# Email_Crawler
+# Synopsis
 This project focuses on making an Email Crawler which can be used for fetching emails and their attachments from a given mailing list available on an archive(for e.g.   http://mail-archives.apache.org/)
 
 # Steps to use :
