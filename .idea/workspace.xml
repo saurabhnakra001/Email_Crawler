@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f52242f-250f-432d-a33a-33a8630b6cdb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="9f52242f-250f-432d-a33a-33a8630b6cdb" name="Default" comment="iml bug fixed">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/EmailCrawler.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,7 +37,7 @@
       <file leaf-file-name="EmailCrawler.iml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EmailCrawler.iml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.111111">
+            <state vertical-scroll-proportion="0.0">
               <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
               <folding />
             </state>
@@ -210,6 +210,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/sprinklr.app/build.gradle" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="FullScreen" value="true" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/EmailCrawler.iml" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -697,7 +698,7 @@
       <workItem from="1499776287364" duration="981000" />
       <workItem from="1499780615016" duration="963000" />
       <workItem from="1499781739121" duration="1490000" />
-      <workItem from="1499784262614" duration="366000" />
+      <workItem from="1499784262614" duration="457000" />
     </task>
     <task id="LOCAL-00001" summary="iml bug fixed">
       <created>1499782145452</created>
@@ -723,11 +724,17 @@
       <option name="project" value="LOCAL" />
       <updated>1499784571210</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="iml bug fixed">
+      <created>1499784633751</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1499784633751</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32867000" />
+    <option name="totallyTimeSpent" value="32958000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1071,7 +1078,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EmailCrawler.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.111111">
+        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
           <folding />
         </state>
