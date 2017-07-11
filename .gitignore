@@ -16,6 +16,5 @@
 *.zip
 *.tar.gz
 *.rar
-*.iml
 data/
 main_file.log
